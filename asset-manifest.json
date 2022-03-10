@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/redBerry-Test/static/css/main.e98bff23.css",
+    "main.js": "/redBerry-Test/static/js/main.3aeba1d4.js",
+    "static/media/Montserrat-Regular.ttf": "/redBerry-Test/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
+    "static/media/stars.png": "/redBerry-Test/static/media/stars.79ba770972d1ba63963b.png",
+    "static/media/Rowdies-Regular.ttf": "/redBerry-Test/static/media/Rowdies-Regular.c3e51820d6d0195a2ef9.ttf",
+    "static/media/rocketman.png": "/redBerry-Test/static/media/rocketman.cd255c41fa9c6b63a423.png",
+    "index.html": "/redBerry-Test/index.html",
+    "main.e98bff23.css.map": "/redBerry-Test/static/css/main.e98bff23.css.map",
+    "main.3aeba1d4.js.map": "/redBerry-Test/static/js/main.3aeba1d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e98bff23.css",
+    "static/js/main.3aeba1d4.js"
+  ]
+}
