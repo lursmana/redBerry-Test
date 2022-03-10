@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Rowdies-Regular";
+  src: url(../../fonts/Rowdies-Regular.ttf);
+}
+
+#headW {
+  grid-area: 1 / 1 / 2 / 2;
+  display: grid;
+  width: 788px;
+  height: 175px;
+  font-family: "Rowdies-regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  align-items: center;
+  text-align: center;
+  color: #fe3b1f;
+}
+#midconW {
+  grid-area: 2 / 1 / 3 / 2;
+  display: grid;
+}
+#DDI {
+  width: 455px;
+  height: 54px;
+  background: #ffffff;
+  border: 1px solid #525557;
+  box-sizing: border-box;
+  outline: none;
+}
+#TI {
+  width: 455px;
+  height: 54px;
+  background: #ffffff;
+  border: 1px solid #525557;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 2em;
+}
+#APL {
+  width: 201px;
+  height: 32px;
+  background: #fe3b1f;
+  font-family: "Montserrat-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  margin-top: 2em;
+  display: flex;
+  justify-self: end;
+}
+#midconBT-Techskills {
+  grid-area: 2 / 2 / 4 / 3;
+  display: grid;
+  width: 705px;
+  height: 606px;
+  font-family: "Montserrat-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 200%;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: white;
+}
+#ellipse1t {
+  opacity: 1;
+}
+#ellipse2t {
+  opacity: 1;
+}
+.ellipse {
+  padding: 0em 0.3em;
+  opacity: 0.1;
+}
+#explist {
+  list-style-type: none;
+  padding: 0;
+}
+.experienceList {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #525557;
+  box-sizing: border-box;
+  display: flex;
+
+  margin-top: 2em;
+}
+.experienceListText {
+  width: 90%;
+  height: 23px;
+  font-family: "Montserrat-Regular";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: start;
+  color: black;
+  padding-left: 1em;
+}
+#Remove-Button {
+  margin-top: 0.8em;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

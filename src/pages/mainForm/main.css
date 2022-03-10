@@ -1,0 +1,35 @@
+#container {
+  display: grid;
+  width: 1920px;
+  height: 1080px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 60% 15%;
+  justify-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    white 0%,
+    white 50%,
+    black 50%,
+    black 100%
+  );
+}
+#Navigation-div {
+  grid-area: 3 / 1 / 4 / 2;
+  display: grid;
+}
+#previous {
+  cursor: pointer;
+}
+#next {
+  cursor: pointer;
+}
+
+.ellipseFilled {
+  padding: 0em 0.3em;
+  opacity: 1;
+}
+.ellipse {
+  padding: 0em 0.3em;
+  opacity: 0.1;
+}

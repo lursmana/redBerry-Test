@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: 'Rowdies-Regular';
+  src: url(../../fonts/Rowdies-Regular.ttf);
+}
+
+
+
+#backgroundLP {
+  display: grid;
+  width: 1920px;
+  height: 1080px;
+  display: grid;
+  grid-template-rows: 45.5% 5% 4% 45.5;
+  grid-template-columns: 100%;
+  justify-items: center;
+  justify-content: center;
+  background: url(./stars.png);
+  background-color: rgb(0, 0, 0);
+}
+
+#welcomeLP {
+  grid-row: 1/2;
+  font-family: 'Rowdies-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 119px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+  color: #fe3b1f;
+}
+
+#startBtn {
+  grid-row: 2/3;
+  width: 395px;
+  height: 79px;
+  border: 0px;
+  cursor: pointer;
+  background-color: #fe3b1f;
+  border-radius: 50px;
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  color: #ffffff;
+  transition: ease background-color 250ms;
+}
+#startBtn:hover {
+  background-color: #b4301c;
+}
+#submittedAP {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  width: 338px;
+  height: 66px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: grid;
+  background: none;
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: 'Montserrat-Regular';
+  font-size: 24px;
+  line-height: 29px;
+  border: none;
+  align-self: top;
+  transition: ease color 250ms;
+  padding-bottom: 5em;
+}
+#submittedAP:hover {
+  color: #fe3b1f;
+}
+#rocketman {
+  grid-row: 4/5;
+  
+  grid-column: 1/2;
+  width: 600px;
+  height: 500.45px;
+  align-self: top;
+  padding-bottom: 5em;
+  
+}
+#linkap {
+  text-decoration: none;
+}

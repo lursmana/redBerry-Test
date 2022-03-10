@@ -1,0 +1,99 @@
+.background {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: vertical;
+  justify-content: center;
+  width: 1920px;
+  min-height: 1080px;
+}
+.application-form-expanded {
+  display: grid;
+  grid-template-rows: 52px 1542px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-family: "Montserrat-Regular";
+}
+.application-form-collapsed {
+  display: grid;
+  grid-template-rows: 52px 0px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-family: "Montserrat-Regular";
+}
+.application-dropdown {
+  width: 1154px;
+  height: 100%;
+  background: #f05039;
+  display: grid;
+  grid-row: 1 / 2;
+  grid-template-columns: 90% 10%;
+}
+.dropdown-title {
+  display: grid;
+  grid-column: 1 / 2;
+  justify-self: start;
+  color: white;
+}
+.vector {
+  display: grid;
+  grid-column: 2 / 3;
+  width: 12.02px;
+  height: 7.43px;
+  transform: rotate(-180deg);
+  margin-top: 1.5em;
+  justify-self: end;
+  margin-right: 1.5em;
+}
+.application-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30% 70%;
+  background-color: white;
+  height: 100%;
+  grid-row: 2 / 3;
+}
+.personal-information-container {
+  display: grid;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.skillset {
+  display: grid;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.covid-situation {
+  display: grid;
+  grid-area: 2 / 1 / 3 / 2;
+  padding-left: 3em;
+}
+.insights {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.Ulist {
+  list-style-type: none;
+}
+.formheader {
+  width: 288px;
+  height: 37px;
+  font-family: "Montserrat-Regular";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  text-decoration-line: underline;
+  color: #fe3b1f;
+}
+li {
+  padding-bottom: 3em;
+}
+
+.skills-div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
